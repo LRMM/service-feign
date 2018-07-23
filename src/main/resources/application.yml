@@ -12,3 +12,8 @@ spring:
     admin:
       client:
         url: http://localhost:8004
+
+# ´ò¿ªÈÛ¶ÏÅäÖÃ
+feign:
+  hystrix:
+    enabled: true
